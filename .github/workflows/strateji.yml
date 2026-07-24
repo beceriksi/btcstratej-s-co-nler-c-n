@@ -1,0 +1,36 @@
+name: Kripto Trend Stratejisi (Top 100)
+
+on:
+  schedule:
+    # Her 15 dakikada bir çalışır (acil/whale uyarıları için sık kontrol).
+    # 4H mum kapanışları zaten script içinde algılanıyor, mantığa dokunulmadı.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # GitHub arayüzünden manuel tetikleme imkanı
+
+# Aynı anda birden fazla çalışma çakışmasın diye
+concurrency:
+  group: strateji-top100
+  cancel-in-progress: true
+
+jobs:
+  run-strategy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Stratejiyi çalıştır
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python strateji_top100.py
