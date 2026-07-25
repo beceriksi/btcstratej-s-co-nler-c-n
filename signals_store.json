@@ -153,6 +153,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "ONDO-USDT_2026-07-25 20:54:16 UTC",
+      "symbol": "ONDO-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 20:54:16 UTC",
+      "entry": 0.3811,
+      "sl": 0.4071,
+      "tp1": 0.36355,
+      "tp2": 0.346,
+      "tp3": 0.32844999999999996,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
