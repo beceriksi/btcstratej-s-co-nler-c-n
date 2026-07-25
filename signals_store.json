@@ -10,9 +10,9 @@
       "tp1": 0.34472500000000006,
       "tp2": 0.31523000000000007,
       "tp3": 0.2857350000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-25 15:45:33 UTC",
+      "close_price": 0.33763
     },
     {
       "id": "XAUT-USDT_2026-07-25 11:15:36 UTC",
@@ -66,9 +66,9 @@
       "tp1": 0.34079500000000007,
       "tp2": 0.3113000000000001,
       "tp3": 0.2818050000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-25 15:45:33 UTC",
+      "close_price": 0.33763
     },
     {
       "id": "XAUT-USDT_2026-07-25 11:44:48 UTC",
