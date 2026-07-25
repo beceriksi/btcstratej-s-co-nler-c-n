@@ -12,6 +12,9 @@ concurrency:
   group: strateji-top100
   cancel-in-progress: true
 
+permissions:
+  contents: write   # signals_store.json'ı geri commit edebilmek için
+
 jobs:
   run-strategy:
     runs-on: ubuntu-latest
@@ -34,3 +37,11 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python strateji_top100.py
+
+      - name: Sinyal deposunu commit et
+        run: |
+          git config user.name "strateji-bot"
+          git config user.email "strateji-bot@users.noreply.github.com"
+          git add signals_store.json
+          git diff --cached --quiet || git commit -m "Sinyal deposu güncellendi [skip ci]"
+          git push
