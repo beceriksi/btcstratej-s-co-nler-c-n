@@ -111,6 +111,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "INJ-USDT_2026-07-25 14:31:32 UTC",
+      "symbol": "INJ-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 14:31:32 UTC",
+      "entry": 5.107,
+      "sl": 5.352,
+      "tp1": 4.986000000000001,
+      "tp2": 4.865,
+      "tp3": 4.744,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
