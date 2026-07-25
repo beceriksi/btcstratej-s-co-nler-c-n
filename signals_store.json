@@ -55,6 +55,62 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "ALLO-USDT_2026-07-25 11:44:48 UTC",
+      "symbol": "ALLO-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 11:44:48 UTC",
+      "entry": 0.37029,
+      "sl": 0.51999,
+      "tp1": 0.34079500000000007,
+      "tp2": 0.3113000000000001,
+      "tp3": 0.2818050000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "XAUT-USDT_2026-07-25 11:44:48 UTC",
+      "symbol": "XAUT-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 11:44:48 UTC",
+      "entry": 4052.1,
+      "sl": 4081.1,
+      "tp1": 4023.3,
+      "tp2": 3994.5,
+      "tp3": 3965.7,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "KAT-USDT_2026-07-25 11:44:48 UTC",
+      "symbol": "KAT-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-25 11:44:48 UTC",
+      "entry": 0.004866,
+      "sl": 0.004644,
+      "tp1": 0.005065999999999999,
+      "tp2": 0.005266,
+      "tp3": 0.005466,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "PAXG-USDT_2026-07-25 11:44:48 UTC",
+      "symbol": "PAXG-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 11:44:48 UTC",
+      "entry": 4051.9,
+      "sl": 4078.7,
+      "tp1": 4023.3500000000004,
+      "tp2": 3994.8,
+      "tp3": 3966.25,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
