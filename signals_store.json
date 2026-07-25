@@ -195,6 +195,34 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "ONDO-USDT_2026-07-25 23:59:37 UTC",
+      "symbol": "ONDO-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 23:59:37 UTC",
+      "entry": 0.378,
+      "sl": 0.4071,
+      "tp1": 0.36045,
+      "tp2": 0.3429,
+      "tp3": 0.32535,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "BNB-USDT_2026-07-25 23:59:37 UTC",
+      "symbol": "BNB-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-25 23:59:37 UTC",
+      "entry": 568.9,
+      "sl": 571.4,
+      "tp1": 561.3,
+      "tp2": 553.7,
+      "tp3": 546.1000000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
