@@ -136,9 +136,9 @@
       "tp1": 0.07270499999999999,
       "tp2": 0.0722,
       "tp3": 0.07169500000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-25 18:42:58 UTC",
+      "close_price": 0.07302
     },
     {
       "id": "TRX-USDT_2026-07-25 17:44:13 UTC",
