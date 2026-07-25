@@ -1,6 +1,7 @@
 import os
 import time
 import math
+import json
 import requests
 from datetime import datetime, timezone
 import pandas as pd
@@ -13,6 +14,9 @@ TOP_N = 100  # ilk kaç coin taranacak
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
+
+# ---------------------- Sinyal Takip Ayarları ---------------------- #
+STORE_PATH = "signals_store.json"
 
 
 # ---------------------- Genel Yardımcılar ---------------------- #
@@ -395,6 +399,91 @@ def px(x):
     return f"{x:,.2f}"
 
 
+# ---------------------- Sinyal Deposu (JSON) ---------------------- #
+
+def load_store():
+    """
+    signals_store.json dosyasını okur. Yoksa boş depo döner.
+    Format: {"signals": [ {...}, {...} ]}
+    """
+    if not os.path.exists(STORE_PATH):
+        return {"signals": []}
+    try:
+        with open(STORE_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if "signals" not in data:
+                data["signals"] = []
+            return data
+    except Exception as e:
+        print("[HATA] signals_store.json okunamadı:", e)
+        return {"signals": []}
+
+
+def save_store(store):
+    try:
+        with open(STORE_PATH, "w", encoding="utf-8") as f:
+            json.dump(store, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print("[HATA] signals_store.json yazılamadı:", e)
+
+
+def open_signal(store, symbol, direction, entry, sl, tp1, tp2, tp3):
+    """
+    Yeni bir sinyal kaydı açar (strateji mantığı zaten trend değişimini
+    tespit ettikten sonra çağrılır; bu fonksiyon sadece kayıt tutar).
+    """
+    sig = {
+        "id": f"{symbol}_{ts()}",
+        "symbol": symbol,
+        "direction": direction,          # "UP" (LONG) / "DOWN" (SHORT)
+        "opened_at": ts(),
+        "entry": entry,
+        "sl": sl,
+        "tp1": tp1,
+        "tp2": tp2,
+        "tp3": tp3,
+        "status": "OPEN",                # OPEN / TP_HIT / SL_HIT
+        "closed_at": None,
+        "close_price": None
+    }
+    store["signals"].append(sig)
+    print(f"[INFO] Yeni sinyal kaydedildi: {symbol} {direction}")
+
+
+def check_open_signals(store, A):
+    """
+    Açık sinyalleri, bu run'da analiz edilen coinlerin güncel kapanış
+    fiyatına göre kontrol eder. TP1'e değdiyse 'hedefe ulaştı',
+    SL'e değdiyse 'stop oldu' olarak kapatır. Strateji mantığına
+    (analyze/trend_decision) dokunmaz, sadece mevcut close fiyatını okur.
+    """
+    for sig in store["signals"]:
+        if sig["status"] != "OPEN":
+            continue
+
+        symbol = sig["symbol"]
+        if symbol not in A:
+            continue  # bu run'da bu coin analiz edilmediyse atla
+
+        price = A[symbol]["close"]
+
+        if sig["direction"] == "UP":
+            if price <= sig["sl"]:
+                sig["status"] = "SL_HIT"
+            elif price >= sig["tp1"]:
+                sig["status"] = "TP_HIT"
+        else:  # DOWN
+            if price >= sig["sl"]:
+                sig["status"] = "SL_HIT"
+            elif price <= sig["tp1"]:
+                sig["status"] = "TP_HIT"
+
+        if sig["status"] != "OPEN":
+            sig["closed_at"] = ts()
+            sig["close_price"] = price
+            print(f"[INFO] Sinyal kapandı: {symbol} -> {sig['status']}")
+
+
 # ---------------------- MAIN ---------------------- #
 
 def main():
@@ -429,6 +518,10 @@ def main():
     if not A:
         print("[HATA] Analiz yok.")
         return
+
+    # ---------------- Sinyal deposu: açık pozisyonları kontrol et ---------------- #
+    store = load_store()
+    check_open_signals(store, A)
 
     # ---------------- Trend değişimi kontrol ---------------- #
     trend_msg = []
@@ -492,6 +585,10 @@ def main():
                 f"- TP2: {px(tp2)}\n"
                 f"- TP3: {px(tp3)}\n"
             )
+
+            open_signal(store, s, now, close, sl, tp1, tp2, tp3)
+
+    save_store(store)
 
     if changed:
         text = "⚠️ TREND DEĞİŞİMİ — 4H KAPANIŞ\n\n" + \
