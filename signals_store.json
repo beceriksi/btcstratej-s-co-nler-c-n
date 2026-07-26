@@ -24,9 +24,9 @@
       "tp1": 4023.3,
       "tp2": 3994.5,
       "tp3": 3965.7,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 22:01:33 UTC",
+      "close_price": 4082.1
     },
     {
       "id": "KAT-USDT_2026-07-25 11:15:36 UTC",
@@ -80,9 +80,9 @@
       "tp1": 4023.3,
       "tp2": 3994.5,
       "tp3": 3965.7,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 22:01:33 UTC",
+      "close_price": 4082.1
     },
     {
       "id": "KAT-USDT_2026-07-25 11:44:48 UTC",
