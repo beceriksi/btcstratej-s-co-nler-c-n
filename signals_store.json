@@ -279,6 +279,48 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "DOGE-USDT_2026-07-26 10:25:04 UTC",
+      "symbol": "DOGE-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 10:25:04 UTC",
+      "entry": 0.07326,
+      "sl": 0.06918,
+      "tp1": 0.07552,
+      "tp2": 0.07778,
+      "tp3": 0.08004,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "TRX-USDT_2026-07-26 10:25:04 UTC",
+      "symbol": "TRX-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 10:25:04 UTC",
+      "entry": 0.33167,
+      "sl": 0.32937,
+      "tp1": 0.33372500000000005,
+      "tp2": 0.33578,
+      "tp3": 0.337835,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "SCR-USDT_2026-07-26 10:25:04 UTC",
+      "symbol": "SCR-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 10:25:04 UTC",
+      "entry": 0.02093,
+      "sl": 0.02472,
+      "tp1": 0.01876,
+      "tp2": 0.01659,
+      "tp3": 0.01442,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
