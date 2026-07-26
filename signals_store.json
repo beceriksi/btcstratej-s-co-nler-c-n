@@ -164,9 +164,9 @@
       "tp1": 0.36355,
       "tp2": 0.346,
       "tp3": 0.32844999999999996,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 17:46:01 UTC",
+      "close_price": 0.4087
     },
     {
       "id": "ONDO-USDT_2026-07-25 21:54:43 UTC",
@@ -178,9 +178,9 @@
       "tp1": 0.36325,
       "tp2": 0.3457,
       "tp3": 0.32815,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 17:46:01 UTC",
+      "close_price": 0.4087
     },
     {
       "id": "ONDO-USDT_2026-07-25 22:54:41 UTC",
@@ -192,9 +192,9 @@
       "tp1": 0.36345,
       "tp2": 0.3459,
       "tp3": 0.32835,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 17:46:01 UTC",
+      "close_price": 0.4087
     },
     {
       "id": "ONDO-USDT_2026-07-25 23:59:37 UTC",
@@ -206,9 +206,9 @@
       "tp1": 0.36045,
       "tp2": 0.3429,
       "tp3": 0.32535,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 17:46:01 UTC",
+      "close_price": 0.4087
     },
     {
       "id": "BNB-USDT_2026-07-25 23:59:37 UTC",
@@ -444,6 +444,34 @@
       "tp1": 0.039645,
       "tp2": 0.04138,
       "tp3": 0.043115,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "TRUMP-USDT_2026-07-26 17:46:01 UTC",
+      "symbol": "TRUMP-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 17:46:01 UTC",
+      "entry": 1.584,
+      "sl": 1.604,
+      "tp1": 1.5510000000000002,
+      "tp2": 1.518,
+      "tp3": 1.4849999999999999,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "MOODENG-USDT_2026-07-26 17:46:01 UTC",
+      "symbol": "MOODENG-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 17:46:01 UTC",
+      "entry": 0.038,
+      "sl": 0.03587,
+      "tp1": 0.039735,
+      "tp2": 0.04147,
+      "tp3": 0.043205,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
