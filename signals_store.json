@@ -122,9 +122,9 @@
       "tp1": 4.986000000000001,
       "tp2": 4.865,
       "tp3": 4.744,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-26 08:41:38 UTC",
+      "close_price": 4.897
     },
     {
       "id": "DOGE-USDT_2026-07-25 17:44:13 UTC",
@@ -220,9 +220,9 @@
       "tp1": 561.3,
       "tp2": 553.7,
       "tp3": 546.1000000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 08:41:38 UTC",
+      "close_price": 571.5
     },
     {
       "id": "SAHARA-USDT_2026-07-26 02:59:49 UTC",
@@ -262,6 +262,20 @@
       "tp1": 0.067915,
       "tp2": 0.050650000000000014,
       "tp3": 0.03338500000000002,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "DOGE-USDT_2026-07-26 08:41:38 UTC",
+      "symbol": "DOGE-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 08:41:38 UTC",
+      "entry": 0.07342,
+      "sl": 0.06918,
+      "tp1": 0.07568,
+      "tp2": 0.07794,
+      "tp3": 0.0802,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
