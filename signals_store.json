@@ -321,6 +321,76 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "DOGE-USDT_2026-07-26 11:46:10 UTC",
+      "symbol": "DOGE-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 11:46:10 UTC",
+      "entry": 0.07323,
+      "sl": 0.06918,
+      "tp1": 0.07549,
+      "tp2": 0.07775,
+      "tp3": 0.08001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "SOL-USDT_2026-07-26 11:46:10 UTC",
+      "symbol": "SOL-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 11:46:10 UTC",
+      "entry": 74.93,
+      "sl": 74.37,
+      "tp1": 74.52000000000001,
+      "tp2": 74.11,
+      "tp3": 73.69999999999999,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "TRX-USDT_2026-07-26 11:46:10 UTC",
+      "symbol": "TRX-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 11:46:10 UTC",
+      "entry": 0.33234,
+      "sl": 0.32937,
+      "tp1": 0.334395,
+      "tp2": 0.33645,
+      "tp3": 0.33850500000000006,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "BASED-USDT_2026-07-26 11:46:10 UTC",
+      "symbol": "BASED-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 11:46:10 UTC",
+      "entry": 0.08774,
+      "sl": 0.08238,
+      "tp1": 0.09054999999999999,
+      "tp2": 0.09336,
+      "tp3": 0.09617,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "SCR-USDT_2026-07-26 11:46:10 UTC",
+      "symbol": "SCR-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 11:46:10 UTC",
+      "entry": 0.02057,
+      "sl": 0.02472,
+      "tp1": 0.0184,
+      "tp2": 0.01623,
+      "tp3": 0.014060000000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
