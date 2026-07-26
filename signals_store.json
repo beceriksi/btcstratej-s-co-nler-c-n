@@ -346,9 +346,9 @@
       "tp1": 74.52000000000001,
       "tp2": 74.11,
       "tp3": 73.69999999999999,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 12:48:02 UTC",
+      "close_price": 74.85
     },
     {
       "id": "TRX-USDT_2026-07-26 11:46:10 UTC",
@@ -388,6 +388,34 @@
       "tp1": 0.0184,
       "tp2": 0.01623,
       "tp3": 0.014060000000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "BTC-USDT_2026-07-26 12:48:02 UTC",
+      "symbol": "BTC-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 12:48:02 UTC",
+      "entry": 64466.8,
+      "sl": 65800.0,
+      "tp1": 63470.0,
+      "tp2": 62473.200000000004,
+      "tp3": 61476.40000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "MEW-USDT_2026-07-26 12:48:02 UTC",
+      "symbol": "MEW-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 12:48:02 UTC",
+      "entry": 0.000359,
+      "sl": 0.0003541,
+      "tp1": 0.00036935,
+      "tp2": 0.0003797,
+      "tp3": 0.00039005,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
