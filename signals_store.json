@@ -489,6 +489,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "MOODENG-USDT_2026-07-26 19:58:48 UTC",
+      "symbol": "MOODENG-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 19:58:48 UTC",
+      "entry": 0.0378,
+      "sl": 0.03587,
+      "tp1": 0.039535,
+      "tp2": 0.04127,
+      "tp3": 0.043005,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
