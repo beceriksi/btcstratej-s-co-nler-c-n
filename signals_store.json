@@ -237,6 +237,34 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "ENA-USDT_2026-07-26 06:09:37 UTC",
+      "symbol": "ENA-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 06:09:37 UTC",
+      "entry": 0.08573,
+      "sl": 0.08841,
+      "tp1": 0.08429,
+      "tp2": 0.08285,
+      "tp3": 0.08140999999999998,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ACE-USDT_2026-07-26 06:09:37 UTC",
+      "symbol": "ACE-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 06:09:37 UTC",
+      "entry": 0.08518,
+      "sl": 0.1127,
+      "tp1": 0.067915,
+      "tp2": 0.050650000000000014,
+      "tp3": 0.03338500000000002,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
