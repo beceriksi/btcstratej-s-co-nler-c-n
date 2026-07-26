@@ -52,9 +52,9 @@
       "tp1": 4023.3500000000004,
       "tp2": 3994.8,
       "tp3": 3966.25,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 23:04:34 UTC",
+      "close_price": 4085.0
     },
     {
       "id": "ALLO-USDT_2026-07-25 11:44:48 UTC",
@@ -108,9 +108,9 @@
       "tp1": 4023.3500000000004,
       "tp2": 3994.8,
       "tp3": 3966.25,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 23:04:34 UTC",
+      "close_price": 4085.0
     },
     {
       "id": "INJ-USDT_2026-07-25 14:31:32 UTC",
@@ -248,9 +248,9 @@
       "tp1": 0.08429,
       "tp2": 0.08285,
       "tp3": 0.08140999999999998,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-26 23:04:34 UTC",
+      "close_price": 0.08892
     },
     {
       "id": "ACE-USDT_2026-07-26 06:09:37 UTC",
