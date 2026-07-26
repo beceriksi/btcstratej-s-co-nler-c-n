@@ -223,6 +223,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "SAHARA-USDT_2026-07-26 02:59:49 UTC",
+      "symbol": "SAHARA-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-26 02:59:49 UTC",
+      "entry": 0.008845,
+      "sl": 0.009768,
+      "tp1": 0.0083105,
+      "tp2": 0.007776,
+      "tp3": 0.0072415,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
