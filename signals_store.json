@@ -419,6 +419,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "MEW-USDT_2026-07-26 15:41:19 UTC",
+      "symbol": "MEW-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-26 15:41:19 UTC",
+      "entry": 0.0003585,
+      "sl": 0.0003541,
+      "tp1": 0.00036885,
+      "tp2": 0.0003792,
+      "tp3": 0.00038955,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
