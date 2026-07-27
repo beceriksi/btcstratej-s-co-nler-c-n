@@ -514,9 +514,9 @@
       "tp1": 64218.2,
       "tp2": 63221.4,
       "tp3": 62224.600000000006,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 63911.4
     },
     {
       "id": "ICP-USDT_2026-07-27 00:14:20 UTC",
@@ -556,9 +556,9 @@
       "tp1": 64308.2,
       "tp2": 63311.4,
       "tp3": 62314.600000000006,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 63911.4
     },
     {
       "id": "AI-USDT_2026-07-27 07:51:31 UTC",
@@ -654,9 +654,9 @@
       "tp1": 0.6912499999999999,
       "tp2": 0.6835,
       "tp3": 0.6757500000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 0.6826
     },
     {
       "id": "ICP-USDT_2026-07-27 16:16:46 UTC",
@@ -668,9 +668,9 @@
       "tp1": 2.128,
       "tp2": 2.104,
       "tp3": 2.08,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 2.11
     },
     {
       "id": "FET-USDT_2026-07-27 16:16:46 UTC",
@@ -682,9 +682,9 @@
       "tp1": 0.14815,
       "tp2": 0.1459,
       "tp3": 0.14365,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 0.1451
     },
     {
       "id": "FET-USDT_2026-07-27 18:00:03 UTC",
@@ -696,9 +696,9 @@
       "tp1": 0.14815,
       "tp2": 0.1459,
       "tp3": 0.14365,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 0.1451
     },
     {
       "id": "LIT-USDT_2026-07-27 19:37:31 UTC",
@@ -724,9 +724,9 @@
       "tp1": 0.14785,
       "tp2": 0.1456,
       "tp3": 0.14335,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 0.1451
     },
     {
       "id": "USDC-USDT_2026-07-27 20:56:26 UTC",
@@ -752,9 +752,9 @@
       "tp1": 0.685,
       "tp2": 0.6689,
       "tp3": 0.6528,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 0.6826
     },
     {
       "id": "LPT-USDT_2026-07-27 20:56:26 UTC",
@@ -808,9 +808,9 @@
       "tp1": 2.1185,
       "tp2": 2.084,
       "tp3": 2.0495,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 2.11
     },
     {
       "id": "USDC-USDT_2026-07-27 22:06:09 UTC",
@@ -836,9 +836,9 @@
       "tp1": 0.6829000000000001,
       "tp2": 0.6668000000000001,
       "tp3": 0.6507000000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 23:22:18 UTC",
+      "close_price": 0.6826
     },
     {
       "id": "XLM-USDT_2026-07-27 22:06:09 UTC",
@@ -906,6 +906,146 @@
       "tp1": 2.1065,
       "tp2": 2.072,
       "tp3": 2.0375,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "BTC-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "BTC-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 63911.4,
+      "sl": 65750.0,
+      "tp1": 62939.600000000006,
+      "tp2": 61967.8,
+      "tp3": 60996.0,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "SUI-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "SUI-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.6826,
+      "sl": 0.7263,
+      "tp1": 0.67485,
+      "tp2": 0.6671,
+      "tp3": 0.6593500000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "TRX-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "TRX-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.32514,
+      "sl": 0.33308,
+      "tp1": 0.323835,
+      "tp2": 0.32253,
+      "tp3": 0.321225,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "WLD-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "WLD-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.3267,
+      "sl": 0.3591,
+      "tp1": 0.3114,
+      "tp2": 0.29610000000000003,
+      "tp3": 0.28080000000000005,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "XLM-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "XLM-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.17282,
+      "sl": 0.18345,
+      "tp1": 0.16920000000000002,
+      "tp2": 0.16558,
+      "tp3": 0.16196,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "LPT-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "LPT-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 1.364,
+      "sl": 1.597,
+      "tp1": 1.266,
+      "tp2": 1.1680000000000001,
+      "tp3": 1.0700000000000003,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "JTO-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "JTO-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.5657,
+      "sl": 0.633,
+      "tp1": 0.53535,
+      "tp2": 0.505,
+      "tp3": 0.47465,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "EDGE-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "EDGE-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.3898,
+      "sl": 0.4189,
+      "tp1": 0.37839999999999996,
+      "tp2": 0.367,
+      "tp3": 0.3556,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "API3-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "API3-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 0.2145,
+      "sl": 0.2218,
+      "tp1": 0.21265,
+      "tp2": 0.2108,
+      "tp3": 0.20894999999999997,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ICP-USDT_2026-07-27 23:22:18 UTC",
+      "symbol": "ICP-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 23:22:18 UTC",
+      "entry": 2.11,
+      "sl": 2.206,
+      "tp1": 2.086,
+      "tp2": 2.062,
+      "tp3": 2.038,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
