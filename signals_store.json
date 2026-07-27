@@ -699,6 +699,34 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "LIT-USDT_2026-07-27 19:37:31 UTC",
+      "symbol": "LIT-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-27 19:37:31 UTC",
+      "entry": 2.2013,
+      "sl": 2.0522,
+      "tp1": 2.3196499999999998,
+      "tp2": 2.4379999999999997,
+      "tp3": 2.5563499999999997,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "FET-USDT_2026-07-27 19:37:31 UTC",
+      "symbol": "FET-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 19:37:31 UTC",
+      "entry": 0.1501,
+      "sl": 0.1607,
+      "tp1": 0.14785,
+      "tp2": 0.1456,
+      "tp3": 0.14335,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
