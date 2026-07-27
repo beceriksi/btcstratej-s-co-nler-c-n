@@ -601,6 +601,48 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "SOL-USDT_2026-07-27 13:55:36 UTC",
+      "symbol": "SOL-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-27 13:55:36 UTC",
+      "entry": 77.02,
+      "sl": 73.55,
+      "tp1": 78.79499999999999,
+      "tp2": 80.57,
+      "tp3": 82.345,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "LIT-USDT_2026-07-27 13:55:36 UTC",
+      "symbol": "LIT-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-27 13:55:36 UTC",
+      "entry": 2.231,
+      "sl": 2.0522,
+      "tp1": 2.2572,
+      "tp2": 2.2834,
+      "tp3": 2.3095999999999997,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "RE-USDT_2026-07-27 13:55:36 UTC",
+      "symbol": "RE-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 13:55:36 UTC",
+      "entry": 0.49767,
+      "sl": 0.51449,
+      "tp1": 0.475495,
+      "tp2": 0.45332,
+      "tp3": 0.431145,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
