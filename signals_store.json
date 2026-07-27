@@ -531,6 +531,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "AI-USDT_2026-07-27 04:05:18 UTC",
+      "symbol": "AI-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 04:05:18 UTC",
+      "entry": 0.02474,
+      "sl": 0.02762,
+      "tp1": 0.02296,
+      "tp2": 0.021180000000000004,
+      "tp3": 0.019400000000000008,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
