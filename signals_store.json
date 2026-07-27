@@ -685,6 +685,20 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "FET-USDT_2026-07-27 18:00:03 UTC",
+      "symbol": "FET-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 18:00:03 UTC",
+      "entry": 0.1504,
+      "sl": 0.1607,
+      "tp1": 0.14815,
+      "tp2": 0.1459,
+      "tp3": 0.14365,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
