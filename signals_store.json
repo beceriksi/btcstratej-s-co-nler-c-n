@@ -503,6 +503,34 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "BTC-USDT_2026-07-27 00:14:20 UTC",
+      "symbol": "BTC-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 00:14:20 UTC",
+      "entry": 65215.0,
+      "sl": 65800.0,
+      "tp1": 64218.2,
+      "tp2": 63221.4,
+      "tp3": 62224.600000000006,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ICP-USDT_2026-07-27 00:14:20 UTC",
+      "symbol": "ICP-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-27 00:14:20 UTC",
+      "entry": 2.199,
+      "sl": 2.158,
+      "tp1": 2.2234999999999996,
+      "tp2": 2.2479999999999998,
+      "tp3": 2.2725,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
