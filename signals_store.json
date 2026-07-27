@@ -150,9 +150,9 @@
       "tp1": 0.335115,
       "tp2": 0.33681,
       "tp3": 0.338505,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-27 16:16:46 UTC",
+      "close_price": 0.32842
     },
     {
       "id": "ONDO-USDT_2026-07-25 20:54:16 UTC",
@@ -304,9 +304,9 @@
       "tp1": 0.33372500000000005,
       "tp2": 0.33578,
       "tp3": 0.337835,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-27 16:16:46 UTC",
+      "close_price": 0.32842
     },
     {
       "id": "SCR-USDT_2026-07-26 10:25:04 UTC",
@@ -360,9 +360,9 @@
       "tp1": 0.334395,
       "tp2": 0.33645,
       "tp3": 0.33850500000000006,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-27 16:16:46 UTC",
+      "close_price": 0.32842
     },
     {
       "id": "BASED-USDT_2026-07-26 11:46:10 UTC",
@@ -458,9 +458,9 @@
       "tp1": 1.5510000000000002,
       "tp2": 1.518,
       "tp3": 1.4849999999999999,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 16:16:46 UTC",
+      "close_price": 1.546
     },
     {
       "id": "MOODENG-USDT_2026-07-26 17:46:01 UTC",
@@ -528,9 +528,9 @@
       "tp1": 2.2234999999999996,
       "tp2": 2.2479999999999998,
       "tp3": 2.2725,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-27 16:16:46 UTC",
+      "close_price": 2.152
     },
     {
       "id": "AI-USDT_2026-07-27 04:05:18 UTC",
@@ -598,9 +598,9 @@
       "tp1": 0.068815,
       "tp2": 0.06815,
       "tp3": 0.067485,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-27 16:16:46 UTC",
+      "close_price": 0.06807
     },
     {
       "id": "SOL-USDT_2026-07-27 13:55:36 UTC",
@@ -640,6 +640,48 @@
       "tp1": 0.475495,
       "tp2": 0.45332,
       "tp3": 0.431145,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "SUI-USDT_2026-07-27 16:16:46 UTC",
+      "symbol": "SUI-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 16:16:46 UTC",
+      "entry": 0.699,
+      "sl": 0.7263,
+      "tp1": 0.6912499999999999,
+      "tp2": 0.6835,
+      "tp3": 0.6757500000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ICP-USDT_2026-07-27 16:16:46 UTC",
+      "symbol": "ICP-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 16:16:46 UTC",
+      "entry": 2.152,
+      "sl": 2.206,
+      "tp1": 2.128,
+      "tp2": 2.104,
+      "tp3": 2.08,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "FET-USDT_2026-07-27 16:16:46 UTC",
+      "symbol": "FET-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-27 16:16:46 UTC",
+      "entry": 0.1504,
+      "sl": 0.1607,
+      "tp1": 0.14815,
+      "tp2": 0.1459,
+      "tp3": 0.14365,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
