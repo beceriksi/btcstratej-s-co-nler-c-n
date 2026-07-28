@@ -1273,6 +1273,48 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "BNB-USDT_2026-07-28 18:47:46 UTC",
+      "symbol": "BNB-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 18:47:46 UTC",
+      "entry": 569.3,
+      "sl": 577.3,
+      "tp1": 561.8,
+      "tp2": 554.3,
+      "tp3": 546.8,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "AAVE-USDT_2026-07-28 18:47:46 UTC",
+      "symbol": "AAVE-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 18:47:46 UTC",
+      "entry": 101.29,
+      "sl": 96.47,
+      "tp1": 104.315,
+      "tp2": 107.34,
+      "tp3": 110.36500000000001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "NIGHT-USDT_2026-07-28 18:47:46 UTC",
+      "symbol": "NIGHT-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 18:47:46 UTC",
+      "entry": 0.018096,
+      "sl": 0.01966,
+      "tp1": 0.0174305,
+      "tp2": 0.016765000000000002,
+      "tp3": 0.016099500000000003,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
