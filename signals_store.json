@@ -906,9 +906,9 @@
       "tp1": 2.1065,
       "tp2": 2.072,
       "tp3": 2.0375,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 00:56:41 UTC",
+      "close_price": 2.106
     },
     {
       "id": "BTC-USDT_2026-07-27 23:22:18 UTC",
@@ -1032,9 +1032,9 @@
       "tp1": 0.21265,
       "tp2": 0.2108,
       "tp3": 0.20894999999999997,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 00:56:41 UTC",
+      "close_price": 0.2069
     },
     {
       "id": "ICP-USDT_2026-07-27 23:22:18 UTC",
@@ -1046,6 +1046,62 @@
       "tp1": 2.086,
       "tp2": 2.062,
       "tp3": 2.038,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "USDC-USDT_2026-07-28 00:56:41 UTC",
+      "symbol": "USDC-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 00:56:41 UTC",
+      "entry": 1.0008,
+      "sl": 1.0007,
+      "tp1": 1.00105,
+      "tp2": 1.0013,
+      "tp3": 1.0015500000000002,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ZEC-USDT_2026-07-28 00:56:41 UTC",
+      "symbol": "ZEC-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 00:56:41 UTC",
+      "entry": 476.14,
+      "sl": 508.66,
+      "tp1": 458.515,
+      "tp2": 440.89,
+      "tp3": 423.265,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "BONK-USDT_2026-07-28 00:56:41 UTC",
+      "symbol": "BONK-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 00:56:41 UTC",
+      "entry": 2.921e-06,
+      "sl": 3.178e-06,
+      "tp1": 2.853e-06,
+      "tp2": 2.785e-06,
+      "tp3": 2.717e-06,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ENA-USDT_2026-07-28 00:56:41 UTC",
+      "symbol": "ENA-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 00:56:41 UTC",
+      "entry": 0.08249,
+      "sl": 0.09319,
+      "tp1": 0.07805,
+      "tp2": 0.07361,
+      "tp3": 0.06917,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
