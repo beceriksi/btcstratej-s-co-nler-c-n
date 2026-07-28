@@ -626,9 +626,9 @@
       "tp1": 2.2572,
       "tp2": 2.2834,
       "tp3": 2.3095999999999997,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 17:12:00 UTC",
+      "close_price": 2.3336
     },
     {
       "id": "RE-USDT_2026-07-27 13:55:36 UTC",
@@ -710,9 +710,9 @@
       "tp1": 2.3196499999999998,
       "tp2": 2.4379999999999997,
       "tp3": 2.5563499999999997,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 17:12:00 UTC",
+      "close_price": 2.3336
     },
     {
       "id": "FET-USDT_2026-07-27 19:37:31 UTC",
@@ -1172,9 +1172,9 @@
       "tp1": 2.31915,
       "tp2": 2.4375,
       "tp3": 2.55585,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 17:12:00 UTC",
+      "close_price": 2.3336
     },
     {
       "id": "ORDI-USDT_2026-07-28 06:31:42 UTC",
@@ -1186,9 +1186,9 @@
       "tp1": 3.436,
       "tp2": 3.36,
       "tp3": 3.284,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 17:12:00 UTC",
+      "close_price": 3.431
     },
     {
       "id": "USDC-USDT_2026-07-28 09:22:13 UTC",
@@ -1242,6 +1242,34 @@
       "tp1": 6.257999999999999,
       "tp2": 6.058999999999999,
       "tp3": 5.859999999999999,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ONDO-USDT_2026-07-28 17:12:00 UTC",
+      "symbol": "ONDO-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 17:12:00 UTC",
+      "entry": 0.4041,
+      "sl": 0.3844,
+      "tp1": 0.4212,
+      "tp2": 0.4383,
+      "tp3": 0.4554,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "AAVE-USDT_2026-07-28 17:12:00 UTC",
+      "symbol": "AAVE-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 17:12:00 UTC",
+      "entry": 101.04,
+      "sl": 96.47,
+      "tp1": 104.065,
+      "tp2": 107.09,
+      "tp3": 110.11500000000001,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
