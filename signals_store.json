@@ -822,9 +822,9 @@
       "tp1": 1.00105,
       "tp2": 1.0013,
       "tp3": 1.0015500000000002,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 20:10:06 UTC",
+      "close_price": 1.0011
     },
     {
       "id": "SUI-USDT_2026-07-27 22:06:09 UTC",
@@ -1060,9 +1060,9 @@
       "tp1": 1.00105,
       "tp2": 1.0013,
       "tp3": 1.0015500000000002,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 20:10:06 UTC",
+      "close_price": 1.0011
     },
     {
       "id": "ZEC-USDT_2026-07-28 00:56:41 UTC",
@@ -1312,6 +1312,48 @@
       "tp1": 0.0174305,
       "tp2": 0.016765000000000002,
       "tp3": 0.016099500000000003,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "USDC-USDT_2026-07-28 20:10:06 UTC",
+      "symbol": "USDC-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 20:10:06 UTC",
+      "entry": 1.0011,
+      "sl": 1.0007,
+      "tp1": 1.0013500000000002,
+      "tp2": 1.0016000000000003,
+      "tp3": 1.0018500000000004,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "PEPE-USDT_2026-07-28 20:10:06 UTC",
+      "symbol": "PEPE-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 20:10:06 UTC",
+      "entry": 2.801e-06,
+      "sl": 2.846e-06,
+      "tp1": 2.756e-06,
+      "tp2": 2.711e-06,
+      "tp3": 2.666e-06,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "LDO-USDT_2026-07-28 20:10:06 UTC",
+      "symbol": "LDO-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 20:10:06 UTC",
+      "entry": 0.3756,
+      "sl": 0.4077,
+      "tp1": 0.35675,
+      "tp2": 0.3379,
+      "tp3": 0.31904999999999994,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
