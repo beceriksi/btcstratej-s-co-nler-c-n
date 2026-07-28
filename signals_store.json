@@ -402,9 +402,9 @@
       "tp1": 63470.0,
       "tp2": 62473.200000000004,
       "tp3": 61476.40000000001,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-28 03:59:39 UTC",
+      "close_price": 63294.9
     },
     {
       "id": "MEW-USDT_2026-07-26 12:48:02 UTC",
@@ -612,9 +612,9 @@
       "tp1": 78.79499999999999,
       "tp2": 80.57,
       "tp3": 82.345,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "SL_HIT",
+      "closed_at": "2026-07-28 03:59:39 UTC",
+      "close_price": 73.23
     },
     {
       "id": "LIT-USDT_2026-07-27 13:55:36 UTC",
@@ -1102,6 +1102,48 @@
       "tp1": 0.07805,
       "tp2": 0.07361,
       "tp3": 0.06917,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ZEC-USDT_2026-07-28 03:59:39 UTC",
+      "symbol": "ZEC-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 03:59:39 UTC",
+      "entry": 474.88,
+      "sl": 508.66,
+      "tp1": 457.255,
+      "tp2": 439.63,
+      "tp3": 422.005,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ENA-USDT_2026-07-28 03:59:39 UTC",
+      "symbol": "ENA-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 03:59:39 UTC",
+      "entry": 0.08333,
+      "sl": 0.09319,
+      "tp1": 0.07889,
+      "tp2": 0.07445,
+      "tp3": 0.07001,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "BONK-USDT_2026-07-28 03:59:39 UTC",
+      "symbol": "BONK-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 03:59:39 UTC",
+      "entry": 2.934e-06,
+      "sl": 3.178e-06,
+      "tp1": 2.866e-06,
+      "tp2": 2.798e-06,
+      "tp3": 2.73e-06,
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
