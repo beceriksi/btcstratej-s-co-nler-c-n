@@ -1441,6 +1441,48 @@
       "status": "OPEN",
       "closed_at": null,
       "close_price": null
+    },
+    {
+      "id": "USDC-USDT_2026-07-28 23:44:41 UTC",
+      "symbol": "USDC-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 23:44:41 UTC",
+      "entry": 1.0011,
+      "sl": 1.0007,
+      "tp1": 1.0013500000000002,
+      "tp2": 1.0016000000000003,
+      "tp3": 1.0018500000000004,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "PEPE-USDT_2026-07-28 23:44:41 UTC",
+      "symbol": "PEPE-USDT",
+      "direction": "DOWN",
+      "opened_at": "2026-07-28 23:44:41 UTC",
+      "entry": 2.8e-06,
+      "sl": 2.846e-06,
+      "tp1": 2.755e-06,
+      "tp2": 2.71e-06,
+      "tp3": 2.665e-06,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
+    },
+    {
+      "id": "ZIL-USDT_2026-07-28 23:44:41 UTC",
+      "symbol": "ZIL-USDT",
+      "direction": "UP",
+      "opened_at": "2026-07-28 23:44:41 UTC",
+      "entry": 0.002876,
+      "sl": 0.002287,
+      "tp1": 0.003069,
+      "tp2": 0.003262,
+      "tp3": 0.003455,
+      "status": "OPEN",
+      "closed_at": null,
+      "close_price": null
     }
   ]
 }
