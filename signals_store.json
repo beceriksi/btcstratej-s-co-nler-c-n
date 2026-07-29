@@ -962,9 +962,9 @@
       "tp1": 0.3114,
       "tp2": 0.29610000000000003,
       "tp3": 0.28080000000000005,
-      "status": "OPEN",
-      "closed_at": null,
-      "close_price": null
+      "status": "TP_HIT",
+      "closed_at": "2026-07-29 01:13:52 UTC",
+      "close_price": 0.3099
     },
     {
       "id": "XLM-USDT_2026-07-27 23:22:18 UTC",
